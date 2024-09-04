@@ -1,8 +1,16 @@
 .square {
 
-    background-color: yellow;
+    /*background-color: purple;*/
     border: 9px solid;
-    border-color: darkblue;
+    border-color: black;
     padding: 50px;
+    
+   }
+
+   div {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid;
+    box-sizing: border-box;
     
    }

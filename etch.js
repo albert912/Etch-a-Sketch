@@ -1,10 +1,59 @@
+
+
 const container = document.querySelector("div");
 
 
 for (let i = 1; i <= 256; i++) {
-    const box = document.createElement('div');
+   const box = document.createElement('div');
    box.classList.add("square");
     container.appendChild(box);
+
+    box.addEventListener("mouseover", event => {
+        event.target.style.background = "crimson";
+   });
+
+
+
 }
 
-//test
+
+    const btn = document.querySelector("button");
+
+    btn.addEventListener("click", () => {
+
+       
+         
+       
+
+        const input = parseInt(prompt("Enter the number of squares of the new grid",));
+
+         console.log(input);
+        
+
+
+       //if (input<100)
+        //input.addEventListener("input", () => {
+
+          
+            
+         
+         //});
+
+        });
+
+  
+
+
+
+   
+  
+   
+
+ 
+
+
+
+
+
+
+
