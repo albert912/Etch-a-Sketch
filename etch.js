@@ -27,7 +27,7 @@ for (let i = 1; i <= 256; i++) {
 
         const input = parseInt(prompt("Enter the number of squares of the new grid",));
 
-         console.log(input);
+         
         
 
 
