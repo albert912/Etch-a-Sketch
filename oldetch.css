@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    aspect-ratio: 1/1;
+    background-color: white;
+    width: 500px;
+    position: relative;
+   
+}
+
+
+.square {
+    background-color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+    }
+
+.square2 {
+    background-color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+
+}
+
+
+
+
+button {
+position: relative;
+top: -300px;
+left: 280px;
+
+}

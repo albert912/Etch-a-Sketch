@@ -1,0 +1,19 @@
+Where am I now:
+
+I am at the 1 step:
+
+-----> add row squares inside columns squares
+
+
+
+
+I am at the 4 step: 
+
+- I managed to add generate a prompt box via clicking the button.
+
+The remaining steps:
+
+1. I need to delete the existing grid (tip: it is done by adding "" to textContent.
+
+2. I need to generate a new grid via the number entered into prompt box.
+
