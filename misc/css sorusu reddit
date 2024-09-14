@@ -1,7 +1,0 @@
-How can I make a different number of cells to cover the same amount of space in a parent container using Flexbox?
-
-Hello, all!
-
-I am currently learning web development via the Odin Project and I am at the Etch-e-Sketch project. According to the instructions I need to create 16*16 grid and then generate new grid based on the number I enter to the prompt box (which will also delete the previous grid ((which is the previous grid -- 16*16)) and these new grid should cover the same total space as before (even though the entered numbers are different). 
-
-.....
