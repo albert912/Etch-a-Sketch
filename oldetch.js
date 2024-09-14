@@ -3,6 +3,21 @@
 const container = document.querySelector("div");
 
 
+    function randomize(){
+        max = 256;
+          
+          
+        let red = Math.floor(Math.random() * max);
+        
+        let blue = Math.floor(Math.random() * max);
+        
+        let green = Math.floor(Math.random() * max) ;
+        
+        return `rgb(${red}, ${blue}, ${green})`;
+        
+        }
+
+
 const squareSize = container.clientWidth/16;
 
 for (let i = 1; i <= 16*16; i++) {
@@ -16,12 +31,13 @@ for (let i = 1; i <= 16*16; i++) {
 
     container.appendChild(box);
 
-    box.addEventListener("mouseover", event => {
-        event.target.style.background = "crimson";
+    box.addEventListener("mouseover", () => {
+        box.style.background = randomize();
+
+        box.style.opacity -= "-0.1"
    });
 
 }
-
 
 
     const btn = document.querySelector("button");
@@ -40,6 +56,10 @@ for (let i = 1; i <= 16*16; i++) {
        }
 
     });
+
+
+
+
 
 
     function generateGrid(number){
@@ -68,8 +88,10 @@ for (let i = 1; i <= 16*16; i++) {
  
      container.appendChild(box2);
  
-     box2.addEventListener("mouseover", event => {
-         event.target.style.background = "crimson";
+     box2.addEventListener("mouseover", () => {
+         box2.style.backgroundColor = randomize();
+
+          box2.style.opacity -= "-0.1"
     });
 
    }
